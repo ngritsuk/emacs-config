@@ -1,0 +1,5 @@
+('add-to-list 'load-path "~/.emacs.d/mode/smooth-scroll")
+(require 'smooth-scroll)
+(smooth-scroll-mode t)
+(global-set-key [next]  'scroll-up-5)
+(global-set-key [prior]    'scroll-down-5)

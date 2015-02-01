@@ -1,0 +1,10 @@
+(add-to-list 'load-path "~/.emacs.d/modes/ecb")
+
+(require 'ecb)
+(require 'ecb-autoloads)
+(setq ecb-examples-bufferinfo-buffer-name 'nil)
+(setq ecb-tip-of-the-day 'nil)
+(global-set-key [f6] 'ecb-toggle-ecb-windows)
+(setq stack-trace-on-error nil)
+(setq ecb-auto-activate t)
+(setq ecb-layout-name "left6")
